@@ -1,0 +1,6 @@
+framework module Pods_Xpay_WorldTests {
+  umbrella header "Pods-Xpay WorldTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

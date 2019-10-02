@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,7 @@
 		88684A7B23439E0000567353 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88684A7A23439DFF00567353 /* MediaPlayer.framework */; };
 		88684A7D23439E0600567353 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88684A7C23439E0600567353 /* SystemConfiguration.framework */; };
 		88684A7F23439E0F00567353 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88684A7E23439E0E00567353 /* QuartzCore.framework */; };
+		88684A8C2344DE4E00567353 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88684A8B2344DE4E00567353 /* LoginView.swift */; };
 		889AF6BF2343805F008EE77C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AF6BE2343805F008EE77C /* AppDelegate.swift */; };
 		889AF6C12343805F008EE77C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AF6C02343805F008EE77C /* SceneDelegate.swift */; };
 		889AF6C32343805F008EE77C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AF6C22343805F008EE77C /* ViewController.swift */; };
@@ -65,6 +66,7 @@
 		88684A7A23439DFF00567353 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		88684A7C23439E0600567353 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		88684A7E23439E0E00567353 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		88684A8B2344DE4E00567353 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		889AF6BB2343805F008EE77C /* Xpay World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xpay World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889AF6BE2343805F008EE77C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		889AF6C02343805F008EE77C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,6 +171,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		88684A862344DD5400567353 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				88684A8B2344DE4E00567353 /* LoginView.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		889AF6B22343805F008EE77C = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +204,7 @@
 		889AF6BD2343805F008EE77C /* Xpay World */ = {
 			isa = PBXGroup;
 			children = (
+				88684A862344DD5400567353 /* Scene */,
 				88684A6723439AA000567353 /* ViewModel */,
 				889AF6BE2343805F008EE77C /* AppDelegate.swift */,
 				889AF6C02343805F008EE77C /* SceneDelegate.swift */,
@@ -447,6 +458,7 @@
 			files = (
 				889AF6C32343805F008EE77C /* ViewController.swift in Sources */,
 				889AF6BF2343805F008EE77C /* AppDelegate.swift in Sources */,
+				88684A8C2344DE4E00567353 /* LoginView.swift in Sources */,
 				889AF6C12343805F008EE77C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

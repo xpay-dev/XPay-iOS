@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55DBB1307877647E50F021FE /* Pods_Xpay_WorldUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5AEB624514B6807845EF69 /* Pods_Xpay_WorldUITests.framework */; };
-		5B33247A42BA552DFD5BDBF1 /* Pods_Xpay_WorldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39828351C6FCE0D25491BC59 /* Pods_Xpay_WorldTests.framework */; };
 		88684A6923439DB700567353 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88684A6823439DB700567353 /* AudioToolbox.framework */; };
 		88684A6B23439DBF00567353 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88684A6A23439DBF00567353 /* AVFoundation.framework */; };
 		88684A6D23439DC900567353 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88684A6C23439DC900567353 /* CoreAudio.framework */; };
@@ -22,34 +20,17 @@
 		88684A7D23439E0600567353 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88684A7C23439E0600567353 /* SystemConfiguration.framework */; };
 		88684A7F23439E0F00567353 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88684A7E23439E0E00567353 /* QuartzCore.framework */; };
 		88684A8C2344DE4E00567353 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88684A8B2344DE4E00567353 /* LoginView.swift */; };
-		88684A8E2344E03400567353 /* EnterPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88684A8D2344E03400567353 /* EnterPinView.swift */; };
+		888C40E123543E0000BF10B9 /* KeyboardFollower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C40E023543E0000BF10B9 /* KeyboardFollower.swift */; };
+		888C40E32354516100BF10B9 /* ActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C40E22354516100BF10B9 /* ActivationView.swift */; };
+		888C40E9235452B000BF10B9 /* EnterPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C40E8235452B000BF10B9 /* EnterPinView.swift */; };
 		889AF6BF2343805F008EE77C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AF6BE2343805F008EE77C /* AppDelegate.swift */; };
 		889AF6C12343805F008EE77C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AF6C02343805F008EE77C /* SceneDelegate.swift */; };
 		889AF6C32343805F008EE77C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AF6C22343805F008EE77C /* ViewController.swift */; };
 		889AF6C62343805F008EE77C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889AF6C42343805F008EE77C /* Main.storyboard */; };
 		889AF6C823438060008EE77C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889AF6C723438060008EE77C /* Assets.xcassets */; };
 		889AF6CB23438060008EE77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889AF6C923438060008EE77C /* LaunchScreen.storyboard */; };
-		889AF6D623438060008EE77C /* Xpay_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AF6D523438060008EE77C /* Xpay_WorldTests.swift */; };
-		889AF6E123438060008EE77C /* Xpay_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AF6E023438060008EE77C /* Xpay_WorldUITests.swift */; };
 		D6AA2A204695D12530905A55 /* Pods_Xpay_World.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CD853A47AE9BBE3418497A /* Pods_Xpay_World.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		889AF6D223438060008EE77C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 889AF6B32343805F008EE77C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 889AF6BA2343805F008EE77C;
-			remoteInfo = "Xpay World";
-		};
-		889AF6DD23438060008EE77C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 889AF6B32343805F008EE77C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 889AF6BA2343805F008EE77C;
-			remoteInfo = "Xpay World";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0139A06A1491B9FA39F10EA5 /* Pods-Xpay WorldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xpay WorldTests.debug.xcconfig"; path = "Target Support Files/Pods-Xpay WorldTests/Pods-Xpay WorldTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +49,9 @@
 		88684A7C23439E0600567353 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		88684A7E23439E0E00567353 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		88684A8B2344DE4E00567353 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		88684A8D2344E03400567353 /* EnterPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinView.swift; sourceTree = "<group>"; };
+		888C40E023543E0000BF10B9 /* KeyboardFollower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFollower.swift; sourceTree = "<group>"; };
+		888C40E22354516100BF10B9 /* ActivationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationView.swift; sourceTree = "<group>"; };
+		888C40E8235452B000BF10B9 /* EnterPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinView.swift; sourceTree = "<group>"; };
 		889AF6BB2343805F008EE77C /* Xpay World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xpay World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889AF6BE2343805F008EE77C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		889AF6C02343805F008EE77C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,10 +60,8 @@
 		889AF6C723438060008EE77C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		889AF6CA23438060008EE77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		889AF6CC23438060008EE77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		889AF6D123438060008EE77C /* Xpay WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xpay WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889AF6D523438060008EE77C /* Xpay_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xpay_WorldTests.swift; sourceTree = "<group>"; };
 		889AF6D723438060008EE77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		889AF6DC23438060008EE77C /* Xpay WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xpay WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		889AF6E023438060008EE77C /* Xpay_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xpay_WorldUITests.swift; sourceTree = "<group>"; };
 		889AF6E223438060008EE77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89ACFE46C52C4C691FC9F8B9 /* Pods-Xpay World.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xpay World.release.xcconfig"; path = "Target Support Files/Pods-Xpay World/Pods-Xpay World.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,22 +90,6 @@
 				88684A6F23439DCF00567353 /* CoreBluetooth.framework in Frameworks */,
 				88684A7D23439E0600567353 /* SystemConfiguration.framework in Frameworks */,
 				88684A6B23439DBF00567353 /* AVFoundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		889AF6CE23438060008EE77C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B33247A42BA552DFD5BDBF1 /* Pods_Xpay_WorldTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		889AF6D923438060008EE77C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55DBB1307877647E50F021FE /* Pods_Xpay_WorldUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,9 +142,18 @@
 			isa = PBXGroup;
 			children = (
 				88684A8B2344DE4E00567353 /* LoginView.swift */,
-				88684A8D2344E03400567353 /* EnterPinView.swift */,
+				888C40E22354516100BF10B9 /* ActivationView.swift */,
+				888C40E8235452B000BF10B9 /* EnterPinView.swift */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		888C40DF23543DD700BF10B9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				888C40E023543E0000BF10B9 /* KeyboardFollower.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		889AF6B22343805F008EE77C = {
@@ -198,8 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				889AF6BB2343805F008EE77C /* Xpay World.app */,
-				889AF6D123438060008EE77C /* Xpay WorldTests.xctest */,
-				889AF6DC23438060008EE77C /* Xpay WorldUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,6 +179,7 @@
 		889AF6BD2343805F008EE77C /* Xpay World */ = {
 			isa = PBXGroup;
 			children = (
+				888C40DF23543DD700BF10B9 /* Utils */,
 				88684A862344DD5400567353 /* Scene */,
 				88684A6723439AA000567353 /* ViewModel */,
 				889AF6BE2343805F008EE77C /* AppDelegate.swift */,
@@ -260,44 +233,6 @@
 			productReference = 889AF6BB2343805F008EE77C /* Xpay World.app */;
 			productType = "com.apple.product-type.application";
 		};
-		889AF6D023438060008EE77C /* Xpay WorldTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 889AF6E823438060008EE77C /* Build configuration list for PBXNativeTarget "Xpay WorldTests" */;
-			buildPhases = (
-				40AD6B0BCF0DDFD16C2D44D1 /* [CP] Check Pods Manifest.lock */,
-				889AF6CD23438060008EE77C /* Sources */,
-				889AF6CE23438060008EE77C /* Frameworks */,
-				889AF6CF23438060008EE77C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				889AF6D323438060008EE77C /* PBXTargetDependency */,
-			);
-			name = "Xpay WorldTests";
-			productName = "Xpay WorldTests";
-			productReference = 889AF6D123438060008EE77C /* Xpay WorldTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		889AF6DB23438060008EE77C /* Xpay WorldUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 889AF6EB23438060008EE77C /* Build configuration list for PBXNativeTarget "Xpay WorldUITests" */;
-			buildPhases = (
-				6B6928E141727A2B69356D5F /* [CP] Check Pods Manifest.lock */,
-				889AF6D823438060008EE77C /* Sources */,
-				889AF6D923438060008EE77C /* Frameworks */,
-				889AF6DA23438060008EE77C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				889AF6DE23438060008EE77C /* PBXTargetDependency */,
-			);
-			name = "Xpay WorldUITests";
-			productName = "Xpay WorldUITests";
-			productReference = 889AF6DC23438060008EE77C /* Xpay WorldUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -310,14 +245,6 @@
 				TargetAttributes = {
 					889AF6BA2343805F008EE77C = {
 						CreatedOnToolsVersion = 11.0;
-					};
-					889AF6D023438060008EE77C = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 889AF6BA2343805F008EE77C;
-					};
-					889AF6DB23438060008EE77C = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 889AF6BA2343805F008EE77C;
 					};
 				};
 			};
@@ -335,8 +262,6 @@
 			projectRoot = "";
 			targets = (
 				889AF6BA2343805F008EE77C /* Xpay World */,
-				889AF6D023438060008EE77C /* Xpay WorldTests */,
-				889AF6DB23438060008EE77C /* Xpay WorldUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -352,45 +277,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		889AF6CF23438060008EE77C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		889AF6DA23438060008EE77C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		40AD6B0BCF0DDFD16C2D44D1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Xpay WorldTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		491AC2EA1FBEF6C678CA9AD1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,28 +296,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Xpay World-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6B6928E141727A2B69356D5F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Xpay WorldUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -459,44 +326,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88684A8E2344E03400567353 /* EnterPinView.swift in Sources */,
 				889AF6C32343805F008EE77C /* ViewController.swift in Sources */,
 				889AF6BF2343805F008EE77C /* AppDelegate.swift in Sources */,
 				88684A8C2344DE4E00567353 /* LoginView.swift in Sources */,
+				888C40E123543E0000BF10B9 /* KeyboardFollower.swift in Sources */,
 				889AF6C12343805F008EE77C /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		889AF6CD23438060008EE77C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				889AF6D623438060008EE77C /* Xpay_WorldTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		889AF6D823438060008EE77C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				889AF6E123438060008EE77C /* Xpay_WorldUITests.swift in Sources */,
+				888C40E32354516100BF10B9 /* ActivationView.swift in Sources */,
+				888C40E9235452B000BF10B9 /* EnterPinView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		889AF6D323438060008EE77C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 889AF6BA2343805F008EE77C /* Xpay World */;
-			targetProxy = 889AF6D223438060008EE77C /* PBXContainerItemProxy */;
-		};
-		889AF6DE23438060008EE77C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 889AF6BA2343805F008EE77C /* Xpay World */;
-			targetProxy = 889AF6DD23438060008EE77C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		889AF6C42343805F008EE77C /* Main.storyboard */ = {
@@ -668,90 +508,6 @@
 			};
 			name = Release;
 		};
-		889AF6E923438060008EE77C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0139A06A1491B9FA39F10EA5 /* Pods-Xpay WorldTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Xpay WorldTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mariojuni.Xpay-WorldTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xpay World.app/Xpay World";
-			};
-			name = Debug;
-		};
-		889AF6EA23438060008EE77C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42B8872CC2271A4AADE83E50 /* Pods-Xpay WorldTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Xpay WorldTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mariojuni.Xpay-WorldTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xpay World.app/Xpay World";
-			};
-			name = Release;
-		};
-		889AF6EC23438060008EE77C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B503EE996A262A1E86A6BBA6 /* Pods-Xpay WorldUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Xpay WorldUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mariojuni.Xpay-WorldUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Xpay World";
-			};
-			name = Debug;
-		};
-		889AF6ED23438060008EE77C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91E184BC61A57C5DFA0A4CAE /* Pods-Xpay WorldUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Xpay WorldUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mariojuni.Xpay-WorldUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Xpay World";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -769,24 +525,6 @@
 			buildConfigurations = (
 				889AF6E623438060008EE77C /* Debug */,
 				889AF6E723438060008EE77C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		889AF6E823438060008EE77C /* Build configuration list for PBXNativeTarget "Xpay WorldTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				889AF6E923438060008EE77C /* Debug */,
-				889AF6EA23438060008EE77C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		889AF6EB23438060008EE77C /* Build configuration list for PBXNativeTarget "Xpay WorldUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				889AF6EC23438060008EE77C /* Debug */,
-				889AF6ED23438060008EE77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
